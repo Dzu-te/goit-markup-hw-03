@@ -1,0 +1,197 @@
+:root {
+  --c-bcg-navy-blue: #2e2f42;
+  --c-white: #ffffff;
+  --c-cloud: #f4f4fd;
+  --c-bgc-head: #e7e9fc;
+  --c-links-buttons-normal: #4d5ae5;
+  --c-links-buttons-hover: #404bbf;
+  --c-slate: #434455;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #ffffff;
+  font-size: 16px;
+}
+
+/* NAVIGATION */
+
+header {
+  border: 1px solid #e7e9fc;
+  font-family: "Roboto", sans-serif;
+}
+
+address {
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+/* section header */
+
+.nav_logo_link {
+  font-family: "Raleway", sans-serif;
+  color: #4d5ae5;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo_studio {
+  color: #2e2f42;
+}
+
+.nav_header_link {
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav_header_link:hover {
+  color: #404bbf;
+}
+
+.nav_header_link:focus {
+  color: #404bbf;
+}
+
+.a_address {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.a_address:hover {
+  color: #404bbf;
+}
+
+.a_address:focus {
+  color: #404bbf;
+}
+
+/* hero section */
+
+.hero_section {
+  background-color: #2e2f42;
+}
+
+.hero_section_one {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.button {
+  background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #404bbf;
+}
+
+.button:focus {
+  background-color: #404bbf;
+}
+
+/* srction first description */
+
+.description_company_title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 00.02em;
+  color: #2e2f42;
+}
+
+.p_descripion_company {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+/* section second our team */
+
+.section_second_our_team {
+  background-color: #f4f4fd;
+}
+
+.h_two_our_team {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.our_team_title {
+  background-color: #ffffff;
+}
+
+.p_our_team {
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+/* section third our portfolio */
+
+.h_two_portfolio {
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  color: #2e2f42;
+}
+
+.h_three_portfolio {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+}
+
+/* footer */
+
+.footer {
+  background-color: #2e2f42;
+}
+
+.footer_logo_link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.footer_logo_studio {
+  color: #f4f4fd;
+}
+
+.p_footer {
+  line-height: 1.5;
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
