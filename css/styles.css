@@ -13,12 +13,12 @@ body {
   color: #434455;
   background-color: #ffffff;
   font-size: 16px;
+  max-width: 1440px;
 }
 
 /* NAVIGATION */
 
 header {
-  border: 1px solid #e7e9fc;
   font-family: "Roboto", sans-serif;
 }
 
@@ -34,7 +34,14 @@ ul {
   list-style-type: none;
 }
 
+.container{
+  max-width: 1158px;
+}
+
 /* section header */
+.header{
+    border-bottom: 1px solid #e7e9fc;
+}
 
 .nav_logo_link {
   font-family: "Raleway", sans-serif;
