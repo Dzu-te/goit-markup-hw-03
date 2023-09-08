@@ -57,7 +57,6 @@ img {
 
 .nav {
   display: flex;
-  gap: 20px;
   align-items: center;
   flex-grow: 1;
 }
@@ -67,7 +66,7 @@ img {
   display: flex;
   gap: 40px;
   flex-grow: 1;
-  justify-content: center;
+  justify-content: flex-start;
 }
 
 .nav_logo_link {
@@ -79,7 +78,9 @@ img {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  margin: 0 auto;
   margin-right: 76px;
+  
   }
 
 .logo_studio {
@@ -88,7 +89,8 @@ img {
 
 .header_ul_address {
   display: flex;
-  gap: 40px;
+  gap: 40px; 
+  padding-left: 0; 
 }
 
 .nav_header_link {
