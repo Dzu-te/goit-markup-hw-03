@@ -213,6 +213,7 @@ img {
 
 .section_second_our_team {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 
 .h_two_our_team {
@@ -222,10 +223,23 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.ul_our_team{
+  display: flex;
+  gap: 24px;
+  
 }
 
 .our_team_title {
   background-color: #ffffff;
+  flex-basis: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.container_description_personal{
+  padding: 32px 0;
 }
 
 .p_our_team {
