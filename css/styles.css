@@ -142,13 +142,10 @@ img {
   color: #ffffff;
   max-width: 496px;
   margin: 0 auto;
-  padding-top: 188px;
   padding-bottom: 48px;
 }
 
-.hero_button_container{
-  padding-bottom: 188px;
-}
+
 
 .button {
   background-color: #4d5ae5;
