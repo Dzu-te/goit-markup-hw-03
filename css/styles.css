@@ -258,6 +258,7 @@ img {
 
 .section_three_our_portfolio{
   padding: 120px 0;
+  border: 1px solid #e7e9fc;
 }
 
 .h_two_portfolio {
@@ -279,7 +280,11 @@ img {
 }
 
 .our_portfolio_list{
-  
+  width: calc((100% - 48px) / 3);
+}
+
+.description_our_portfolio{
+  padding: 32px 16px;
 }
 
 .h_three_portfolio {
