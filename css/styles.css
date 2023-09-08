@@ -229,11 +229,12 @@ img {
 .ul_our_team{
   display: flex;
   gap: 24px;
-  
+  padding-left: 0;
 }
 
 .our_team_title {
   background-color: #ffffff;
+  /* TODO: fix this mistake */
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
@@ -255,6 +256,10 @@ img {
 
 /* section third our portfolio */
 
+.section_three_our_portfolio{
+  padding: 120px 0;
+}
+
 .h_two_portfolio {
   font-size: 36px;
   line-height: 1.11;
@@ -262,6 +267,19 @@ img {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   color: #2e2f42;
+  margin-bottom: 72px;
+}
+
+.ul_our_portfolio{
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+  padding: 0;
+}
+
+.our_portfolio_list{
+  
 }
 
 .h_three_portfolio {
