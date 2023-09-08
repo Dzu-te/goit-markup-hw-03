@@ -251,7 +251,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-    text-align: center;
+  text-align: center;
 }
 
 /* section third our portfolio */
@@ -299,8 +299,8 @@ img {
   margin-bottom: 8px;
 }
 
-.p_our_team{
-    text-align: start;
+.p_our_portfolio{
+  text-align: start;
 }
 
 /* footer */
