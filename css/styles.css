@@ -242,10 +242,15 @@ img {
   padding: 32px 0;
 }
 
+.description_company_title{
+  text-align: center;
+}
+
 .p_our_team {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
+    text-align: center;
 }
 
 /* section third our portfolio */
