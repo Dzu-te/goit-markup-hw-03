@@ -57,7 +57,7 @@ img {
   display: block;
   width: 100%;
   height: auto;
-}
+  }
 
 /* section header */
 .header {
@@ -198,7 +198,8 @@ img {
 }
 
 .li_description_company{
-  width: calc((100% - 72px) / 4);  
+  width: calc((100% - 72px) / 4);
+  min-width: 150px;
 }
 
 .description_company_title {
@@ -236,6 +237,7 @@ img {
   display: flex;
   gap: 24px;
   padding-left: 0;
+  flex-wrap: wrap;
 }
 
 .our_team_title {
@@ -243,6 +245,7 @@ img {
   /* TODO: fix this mistake */
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  min-width: 250px;
 }
 
 .container_description_personal{
@@ -286,6 +289,7 @@ img {
 
 .our_portfolio_list{
   width: calc((100% - 48px) / 3);
+  min-width: 250px;
 }
 
 .description_our_portfolio{
