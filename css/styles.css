@@ -14,6 +14,7 @@ body {
   background-color: #ffffff;
   font-size: 16px;
   max-width: 1440px;
+  margin: 0 auto;
 }
 
 .visually_hidden {
@@ -178,18 +179,18 @@ img {
   background-color: #404bbf;
 }
 
-/* srction first description */
+/* section first description */
 
 .section_description_company {
   padding: 120px 0;
 }
 
-.ul_description_company{
+.ul_description_company{  
   padding: 0;
   margin: 0;
   display: flex;
   gap: 24px;
-}
+  }
 
 .li_description_company{
   width: calc((100% - 72px) / 4);
@@ -230,12 +231,12 @@ img {
   display: flex;
   gap: 24px;
   padding-left: 0;
+  flex-wrap: wrap;
 }
 
 .our_team_title {
   background-color: #ffffff;
-  /* TODO: fix this mistake */
-  width: calc((100% - 72px) / 4);
+  flex-basis: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -280,7 +281,7 @@ img {
 }
 
 .our_portfolio_list{
-  width: calc((100% - 48px) / 3);
+  flex-basis: calc((100% - 48px) / 3);
 }
 
 .description_our_portfolio{
