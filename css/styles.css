@@ -14,7 +14,6 @@ body {
   background-color: #ffffff;
   font-size: 16px;
   max-width: 1440px;
-  margin: 0 auto;
 }
 
 .visually_hidden {
@@ -179,32 +178,30 @@ img {
   background-color: #404bbf;
 }
 
-/* section first description */
+/* srction first description */
 
 .section_description_company {
   padding: 120px 0;
 }
 
-.ul_description_company{  
+.ul_description_company{
   padding: 0;
   margin: 0;
   display: flex;
   gap: 24px;
-  flex-wrap: wrap;
-  }
-
-.li_description_company{
-  flex-basis: calc((100% - 72px) / 4);
 }
 
-.h_three_description_company {
+.li_description_company{
+  width: calc((100% - 72px) / 4);
+}
+
+.description_company_title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 00.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-
 }
 
 .p_descripion_company {
@@ -233,12 +230,12 @@ img {
   display: flex;
   gap: 24px;
   padding-left: 0;
-  flex-wrap: wrap;
 }
 
-.li_team_title {
+.our_team_title {
   background-color: #ffffff;
-  flex-basis: calc((100% - 72px) / 4);
+  /* TODO: fix this mistake */
+  width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
 
@@ -255,7 +252,6 @@ img {
   letter-spacing: 0.02em;
   color: #434455;
   text-align: center;
-  margin-bottom: 8px;
 }
 
 /* section third our portfolio */
