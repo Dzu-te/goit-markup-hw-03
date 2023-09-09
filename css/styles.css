@@ -45,6 +45,7 @@ a {
 
 ul {
   list-style-type: none;
+  margin-top: 0;
 }
 
 .container {
@@ -54,6 +55,8 @@ ul {
 
 img {
   display: block;
+  width: 100%;
+  height: auto;
 }
 
 /* section header */
