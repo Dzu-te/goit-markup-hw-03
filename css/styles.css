@@ -82,6 +82,7 @@ img {
   gap: 40px;
   flex-grow: 1;
   justify-content: flex-start;
+  margin: auto 0;
 }
 
 .nav_logo_link {
@@ -104,6 +105,7 @@ img {
   display: flex;
   gap: 40px;
   padding-left: 0;
+  margin: auto 0;
 }
 
 .nav_header_link {
