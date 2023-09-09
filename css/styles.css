@@ -12,8 +12,8 @@ body {
   font-family: "Roboto", sans-serif;
   color: #434455;
   background-color: #ffffff;
-  font-size: 16px;
-  max-width: 1440px;
+  font-size: 16px;  
+  margin: 0 auto;
 }
 
 .visually_hidden {
@@ -189,10 +189,11 @@ img {
   margin: 0;
   display: flex;
   gap: 24px;
+  flex-wrap: wrap;/* TODO: */
 }
 
 .li_description_company{
-  width: calc((100% - 72px) / 4);
+  width: calc((100% - 72px) / 4);  
 }
 
 .description_company_title {
@@ -243,7 +244,7 @@ img {
   padding: 32px 0;
 }
 
-.description_company_title{
+.h_three_description_company{
   text-align: center;
 }
 
@@ -257,8 +258,7 @@ img {
 /* section third our portfolio */
 
 .section_three_our_portfolio{
-  padding: 120px 0;
-  
+  padding: 120px 0;  
 }
 
 .h_two_portfolio {
